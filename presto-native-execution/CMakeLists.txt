@@ -40,7 +40,7 @@ endif()
 
 # Add all Presto options below
 option(PRESTO_ENABLE_S3 "Build S3 connector" OFF)
-option(PRESTO_ENABLE_PARQUET "Enable Parquet support" OFF)
+option(PRESTO_ENABLE_PARQUET "Enable Parquet support" ON)
 option(PRESTO_ENABLE_TESTING "Enable tests" ON)
 
 # Set all Velox options below
